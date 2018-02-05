@@ -1,4 +1,4 @@
-options(repos=structure(c(CRAN="http://cran.us.r-project.org")))
+options(repos=structure(c(CRAN="https://cran.us.r-project.org")))
 
 .domino.IsSvgAvailable <- function () {
   return(capabilities('cairo'))
